@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Nike Uptempo White and Blue",
+      "price": 4000,
+      "category": "Uptempo",
+      "productImg": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2ec31f1e-986f-4640-a045-56cf89fdb2ae/calzado-air-more-uptempo-96-zpkSSs.png"
+    },
+    {
+      "id": 2,
+      "name": "Uptempo Black and Red",
+      "price": 5300,
+      "category": "Uptempo",
+      "productImg": "https://img01.ztat.net/article/spp-media-p1/d3cbc9a2517c47bb8c2ad9c874b68761/bce1f242743d48e690454775a45b4d0d.jpg?imwidth=762"
+    },
+    {
+      "id": 3,
+      "name": "Uptempo Total Black",
+      "price": 4920,
+      "category": "Uptempo",
+      "productImg": "https://cdn-images.farfetch-contents.com/13/15/81/89/13158189_14643366_600.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Air Force Shadow",
+      "price": 2080,
+      "category": "Air Force",
+      "productImg": "https://images.pexels.com/photos/12611630/pexels-photo-12611630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Jordan 1 Low Red and Black",
+      "price": 2610,
+      "category": "Jordan 1",
+      "productImg": "https://images.pexels.com/photos/12725050/pexels-photo-12725050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 6,
+      "name": "Jordan 1 High Red",
+      "price": 1050,
+      "category": "Jordan 1",
+      "productImg": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1eac4e3d-869d-44f3-abb3-233eea2f68f1/calzado-air-jordan-1-high-og-satin-bred-1kKstn.png"
+    },
+    {
+      "id": 7,
+      "name": "Jordan 4 Red",
+      "price": 2100,
+      "category": "Jordan 4",
+      "productImg": "https://acdn.mitiendanube.com/stores/002/307/845/products/air-jordan-4-retro-ct8527-016-black-white-red-sneaker1-eb8dead59bd78b10cf16682114903018-640-0.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Dunk Panda",
+      "price": 8000,
+      "category": "Dunk",
+      "productImg": "https://filebroker-cdn.lazada.co.th/kf/S55fcf1ca01c14fa1b1be87ce2ac0279bD.jpg"
+    }
+  ]
+  
