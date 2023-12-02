@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Indie+Flower&family=Koulen&family=Montserrat:ital,wght@0,400;1,900&family=Odibee+Sans&family=Roboto&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+     <!--    HEADER  -->
+
+     <header>
+      <nav class="navbar">
+  
+
+        <ul class="navbar__list">
+          <li><a href="index.html">Go back</a></li>
+
+        </ul>
+        <a href="#hero"
+          ><img class="logo-img" src="img/sneakers.png" alt="logo"
+        /></a>
+        <div class="navbar__toggle">
+              <!--  menú hamburguesa  -->
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact">
+     
+      
+      <h3>Complete the form to finalize your order</h3>
+      <div class="container-contact">
+        <form class="form">
+          <button class="form-button">Send</button>
+          <label for="name">Name and Lastname</label>
+          <div class="container-input">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="enter your name"
+            />
+            <small></small>
+          </div>
+
+          <label for="email">Email</label>
+          <div class="container-input">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+            />
+            <small></small>
+          </div>
+
+          <label for="number">Number</label>
+          <div class="container-input">
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="enter your phone"
+            />
+            <small></small>
+          </div>
+
+          <label for="optionsPay">Way to pay</label>
+          <div class="container-input">
+            <select id="optionPay" name="opcion">
+              <option value="option1">Cash</option>
+              <option value="option2">Debit Card</option>
+              <option value="option3">Credit Card</option>
+    
+            <small></small>
+          </div>
+        </form>
+       
+      </section>
+        <script src="/assets/data.js"></script>
+        <script src="/assets/formulario.js"></script>
+  
+   
+      </div>
+  </body>
+</html>

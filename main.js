@@ -412,7 +412,7 @@ const addProduct = (e) => {
 const successBuy = () => {
   if (!productLS.length) return;
   if (productLS.length) {
-    alert("Your order was successfully completed!");
+    window.location.href = "formulario.html";
   }
 };
 
