@@ -6,7 +6,7 @@ const formNumberEl = document.getElementById("number");
 const formEmailEl = document.getElementById("email");
 const formButtonEl = document.querySelector(".form-button");
 const formPayEl = document.getElementById(".optionPay");
-console.log(formPayEl.value);
+
 
 //  traigo los mensajes del localStorage o creo array vacío si no hay mensajes:
 
@@ -129,7 +129,7 @@ const checkPhone = (input) => {
 const actualDate = (e) => {
   const date = new Date();
   const today = date.toLocaleDateString();
-  console.log(today);
+  
 };
 
 function mostrarFecha() {
@@ -157,7 +157,7 @@ const formValidate = (event) => {
       pay: formPayEl.value,
     });
     saveToLocalStorage(formData);
-    console.log(formData);
+    
   }
   formEl.reset();
 };

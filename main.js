@@ -9,7 +9,7 @@ const buttonsContainerEl = document.querySelector(".container-buttons"); //conte
 const categoriesList = document.querySelectorAll(".category"); //categoría de producto
 const shopEl = document.querySelector(".fa-shopping-cart"); //carrito de compras
 const shopContainerEl = document.querySelector(".shop-container"); //container del carrito de compras
-console.log(shopContainerEl);
+
 const shopAddEl = document.querySelector(".shop-add"); //contenedor de los productos que agrego al carrito
 const totalEl = document.querySelector(".total"); // acá capturo el total de lo que suma los precios del carrito
 const buyEl = document.querySelector(".buy"); //botón comprar
@@ -237,7 +237,7 @@ const noCloseOnScroll = () => {
 
 const createShopProduct = (product) => {
   const { id, name, price, img, quantity } = product;
-  console.log(product);
+  
   return `
   <div class="shopcard-container">
     <div class="shopcard-principal">
@@ -399,10 +399,10 @@ const addProduct = (e) => {
 
   if (existShopProduct(product)) {
     addExistShopProduct(product);
-    alert("Product added successfully!");
+    
   } else {
     createShopObjectProduct(product);
-    alert("Product added successfully!");
+    
   }
   updateShopState();
 };
@@ -429,7 +429,7 @@ const deleteShop = () => {
   if (!productLS.length) return;
   if (productLS.length) {
     resetShop();
-    alert("Your cart has been emptied.");
+    
   }
 };
 

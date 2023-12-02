@@ -167,7 +167,7 @@ const formValidate = (event) => {
       text: formTextEl.value,
     });
     saveToLocalStorage(messages);
-    alert("Your message has been sent successfully");
+    
   }
   formEl.reset();
 };
